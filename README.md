@@ -1,1 +1,1 @@
-# Introduction-to-OpenTelemetry-with-Python
+# Introduction to OpenTelemetry with Python
