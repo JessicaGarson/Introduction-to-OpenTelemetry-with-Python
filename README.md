@@ -10,6 +10,8 @@ You can find slides to accompany this talk in the folder of this repository enti
 - [OpenTelemetry SDKs](https://opentelemetry.io/docs/languages/)
 - [Django Instrumentation](https://opentelemetry-python.readthedocs.io/en/latest/examples/django/README.html)
 - [Introducing Elastic Distribution for OpenTelemetry Python](https://www.elastic.co/observability-labs/blog/elastic-opentelemetry-distribution-python)
+- [OTel Demo](https://opentelemetry.io/docs/demo)
+- [Elastic OTel Demo](https://github.com/elastic/opentelemetry-demo)
 - [elastic-otel-python](https://github.com/elastic/elastic-otel-python)
 - [Elastic OpenTelemetry integration](https://www.elastic.co/guide/en/observability/current/apm-open-telemetry.html)
 - [Elastic Observability Fundamentals](https://www.elastic.co/training/observability-fundamentals)
