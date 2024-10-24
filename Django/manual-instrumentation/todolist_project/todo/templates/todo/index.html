@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To Do List</title>
+    {% load static %}
+    <link href="{% static 'css/tailwind.css' %}" rel="stylesheet">
+</head>
+<body class="bg-gray-100 p-6">
+    <h1 class="text-2xl font-bold mb-4">To Do List</h1>
+    <ul class="space-y-4">
+        {% for item in items %}
+            <li class="bg-white p-4 rounded shadow flex justify-between items-center">
+                <div>
+                    <span class="font-semibold">{{ item.title }}</span> - {{ item.description }}
+                </div>
+                <form method="post" action="{% url 'delete_item' item.id %}" class="inline-block">
+                    {% csrf_token %}
+                    <button type="submit" class="text-red-500 hover:text-red-700 bg-red-100 hover:bg-red-200 rounded px-3 py-1">Delete</button>
+                </form>
+            </li>
+        {% endfor %}
+    </ul>
+    <form action="{% url 'add_item' %}" method="get" class="mt-6">
+        <button type="submit" class="bg-blue-500 text-white py-2 px-4 rounded">Add New Item</button>
+    </form>
+</body>
+</html>

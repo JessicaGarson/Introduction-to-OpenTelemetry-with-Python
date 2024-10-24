@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Item</title>
+    {% load static %}
+    <link href="{% static 'css/tailwind.css' %}" rel="stylesheet">
+</head>
+<body class="bg-gray-100 p-6">
+    <h1 class="text-2xl font-bold mb-4">Add new item</h1>
+    <form method="post" class="bg-white p-6 rounded shadow space-y-4">
+        {% csrf_token %}
+        <div>
+            <label for="id_title" class="block text-sm font-medium text-gray-700">Title</label>
+            <input type="text" name="title" id="id_title" class="mt-1 p-2 block w-full border border-gray-300 rounded-md">
+        </div>
+        <div>
+            <label for="id_description" class="block text-sm font-medium text-gray-700">Description</label>
+            <textarea name="description" id="id_description" class="mt-1 p-2 block w-full border border-gray-300 rounded-md"></textarea>
+        </div>
+        <button type="submit" class="bg-blue-500 text-white py-2 px-4 rounded">Add</button>
+    </form>
+</body>
+</html>
+
