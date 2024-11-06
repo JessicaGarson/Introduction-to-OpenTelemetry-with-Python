@@ -21,6 +21,7 @@ You can find slides to accompany this talk in the folder of this repository enti
 - [How To Monitor and Troubleshoot Applications using OpenTelemetry](https://www.youtube.com/watch?v=oTzIieqwMW0)
 - [A practical guide to using OpenTelemetry in Python by Tom Eastman](https://www.youtube.com/watch?v=R8BYnL-Yp1w)
 - [The State of OpenTelemetry](https://xeraa.net/talks/on-the-bleeding-edge-of-open-telemetry/)
+- [Observability with OpenTelemetry and Elastic for Python](https://www.youtube.com/watch?v=ssSLwf027T8)
 
 ### Other
 - [APM Agent vs OpenTelemetry](https://discuss.elastic.co/t/elastic-apm-agent-vs-opentelemetry-client/332903)
