@@ -21,7 +21,7 @@ export ELASTIC_OTEL_SYSTEM_METRICS_ENABLED=true
 ### Automatic instrumentation
 
 ```
-opentelemetry-instrument python app.py
+opentelemetry-instrument flask run
 ```
 
 ### Manual instrumentation
