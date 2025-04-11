@@ -4,17 +4,19 @@ OpenTelemetry (OTel) is a vendor-neutral, open-source framework for observabilit
 ## Slides
 You can find slides to accompany this talk in the folder of this repository entitled [slides](https://github.com/JessicaGarson/Introduction-to-OpenTelemetry-with-Python/tree/main/Slides).
 
-## Tutorials by me on this topic
+## Resources
+
+### Tutorials by me on this topic
 - [Django tutorial](https://allthingsopen.org/articles/what-is-opentelemetry-add-django-application)
 - [Flask tutorial](https://discuss.elastic.co/t/dec-6th-2024-en-adding-opentelemetry-to-your-flask-application/368454)
 
-## General resources 
+### General resources 
 - [OpenTelemetry docs](https://opentelemetry.io/)
 - [OpenTelemetry collectors](https://opentelemetry.io/docs/collector/) 
 - [OpenTelemetry SDKs](https://opentelemetry.io/docs/languages/)
 - [Django Instrumentation](https://opentelemetry-python.readthedocs.io/en/latest/examples/django/README.html)
 
-## Elastic resources 
+### Elastic resources 
 - [Elastic Distributions of OpenTelemetry (EDOT)](https://elastic.github.io/opentelemetry/)
 - [Introducing Elastic Distribution for OpenTelemetry Python](https://www.elastic.co/observability-labs/blog/elastic-opentelemetry-distribution-python)
 - [OTel Demo](https://opentelemetry.io/docs/demo)
