@@ -27,6 +27,7 @@ You can find slides to accompany this talk in the folder of this repository enti
 - [Elastic Observability Fundamentals](https://www.elastic.co/training/observability-fundamentals)
 - [Automatic instrumentation with OpenTelemetry for Python applications](https://www.elastic.co/observability-labs/blog/auto-instrumentation-python-applications-opentelemetry)
 - [Daily Elastic Byte: Season 6](https://www.youtube.com/playlist?list=PL_mJOmq4zsHYWEC3PanbKZiE5UNjYzW8F)
+- [Hybrid example based on this repo](https://github.com/justincastilla/flask-hybrid-observability)
 
 ### Other talks
 - [How To Monitor and Troubleshoot Applications using OpenTelemetry](https://www.youtube.com/watch?v=oTzIieqwMW0)
