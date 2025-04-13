@@ -28,6 +28,9 @@ You can find slides to accompany this talk in the folder of this repository enti
 - [Automatic instrumentation with OpenTelemetry for Python applications](https://www.elastic.co/observability-labs/blog/auto-instrumentation-python-applications-opentelemetry)
 - [Daily Elastic Byte: Season 6](https://www.youtube.com/playlist?list=PL_mJOmq4zsHYWEC3PanbKZiE5UNjYzW8F)
 - [Hybrid example based on this repo](https://github.com/justincastilla/flask-hybrid-observability)
+- 
+- [APM Agent vs OpenTelemetry](https://discuss.elastic.co/t/elastic-apm-agent-vs-opentelemetry-client/332903)
+- [Independence with OpenTelemetry on Elastic](https://www.elastic.co/blog/opentelemetry-observability)
 
 ### Other talks
 - [How To Monitor and Troubleshoot Applications using OpenTelemetry](https://www.youtube.com/watch?v=oTzIieqwMW0)
@@ -36,6 +39,4 @@ You can find slides to accompany this talk in the folder of this repository enti
 - [Observability with OpenTelemetry and Elastic for Python](https://www.youtube.com/watch?v=ssSLwf027T8)
 
 ### Other
-- [APM Agent vs OpenTelemetry](https://discuss.elastic.co/t/elastic-apm-agent-vs-opentelemetry-client/332903)
-- [Independence with OpenTelemetry on Elastic](https://www.elastic.co/blog/opentelemetry-observability)
 - [What is OpenTelemetry?](https://www.codingblocks.net/podcast/what-is-opentelemetry/#more-40442)
